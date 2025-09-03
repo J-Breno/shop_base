@@ -16,5 +16,23 @@ export const globalStyles = globalCss({
   'body, input, textarea, button': {
     fontFamily: 'Roboto',
     fontWeight: 400,
+  },
+
+  a: {
+    textDecoration: 'none',
+    color: 'inherit',
+  },
+
+  // Responsividade base para o site
+  '@media (max-width: 768px)': {
+    html: {
+      fontSize: '14px',
+    },
+  },
+
+  '@media (max-width: 480px)': {
+    html: {
+      fontSize: '12px',
+    },
   }
-})
+});
